@@ -9,31 +9,32 @@ using AccesoDatos;
 
 namespace Negocio
 {
-    public class VoucherNegocio
+   public class PremioNegocio
     {
-        public List<Vouchers> listarVoucher()
+        public List<Premio> listarPremios()
         {
             SqlConnection conexion = new SqlConnection();
             SqlCommand comando = new SqlCommand();
             SqlDataReader lector;
-            List<Vouchers> listado = new List<Vouchers>();
-            Vouchers voucher;
+            List<Premio> listado = new List<Premio>();
+            Premio premio;
 
             try
             {
                 conexion.ConnectionString = AccesoDatosManager.cadenaConexion;
                 comando.CommandType = System.Data.CommandType.Text;
                 //MSF-20190420: agregué todos los datos del heroe. Incluso su universo, que lo traigo con join.
-                comando.CommandText = "select * From Vouchers";
+                comando.CommandText = "select * From productos";
                 comando.Connection = conexion;
                 conexion.Open();
                 lector = comando.ExecuteReader();
 
                 while (lector.Read())
                 {
-                    voucher = new Vouchers();
-                    voucher.Id = lector.GetInt64(0);
-                    voucher.Codigo = lector.GetString(1);
+                    premio = new Premio();
+                    premio.Id = lector.GetInt64(0);
+                    premio.Titulo= lector.GetString(1);
+                    premio.URL_Imagen = lector.GetString(3);
 
                     //  voucher.Nombre = lector["Nombre"].ToString();
                     //if (!Convert.IsDBNull(lector["Debilidad"]))
@@ -47,7 +48,7 @@ namespace Negocio
 
 
 
-                    listado.Add(voucher);
+                    listado.Add(premio);
                 }
 
                 return listado;
@@ -62,32 +63,6 @@ namespace Negocio
                 conexion.Close();
             }
         }
-
-        public void CargarProductoVoucher(Vouchers modificar)
-        {
-            AccesoDatosManager accesoDatos = new AccesoDatosManager();
-            try
-            {
-                accesoDatos.setearConsulta("update vouchers Set idproducto=@idproducto   Where Id=" + modificar.Id.ToString());
-                accesoDatos.Comando.Parameters.Clear();
-                accesoDatos.Comando.Parameters.AddWithValue("@idproducto", modificar.IdProducto);
-                accesoDatos.abrirConexion();
-                accesoDatos.ejecutarAccion();
-
-            }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
-            finally
-            {
-                accesoDatos.cerrarConexion();
-            }
-        }
-
-
-
-
 
     }
 }

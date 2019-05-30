@@ -20,6 +20,7 @@ namespace WebApplication6
 
         protected void Button1_Click(object sender, EventArgs e)
         {
+            int aux = -1;
             VoucherNegocio negocioV = new VoucherNegocio();
             List<Vouchers> lista = negocioV.listarVoucher();
            for(int i = 0; i < lista.Count; i++)
@@ -27,17 +28,22 @@ namespace WebApplication6
             {                            
 
                     if (lista[i].Codigo == TextBox1.Text.ToString())
-                { i = lista.Count; Label1.Text = "SI SE PUEDE";
-                }
-                else
                 {
-                    Label1.Text = "NO SE PUEDE";
- }
-
+                    aux = i; i = lista.Count;
+                }
             }
 
+           if (aux>=0)
+            {
+                Session["idVoucher"] = lista[aux].Id;
 
-            //Response.Redirect("Premios.aspx");
+                Response.Redirect("Premios.aspx");
+            }
+           else
+            {
+                Response.Redirect("ErrorVoucher.aspx");
+            }
+
 
         }
     }

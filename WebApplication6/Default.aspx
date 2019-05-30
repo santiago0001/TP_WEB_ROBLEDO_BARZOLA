@@ -18,8 +18,8 @@
     <asp:TextBox ID="TextBox1" runat="server" BorderStyle="Solid" Width="339px"></asp:TextBox>
 </h2>
 <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
-    <asp:Button ID="Button1" runat="server" Text="Participar" OnClick="Button1_Click" />            
-        
+    <asp:Button class="btn btn-primary" ID="Button1" runat="server" Text="Participar" OnClick="Button1_Click" />            
+
     
 </h2>
 <h2>&nbsp;</h2>

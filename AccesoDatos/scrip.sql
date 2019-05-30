@@ -32,11 +32,11 @@ CREATE TABLE Vouchers(
     Fecha_Registro DATETIME NOT NULL DEFAULT GETDATE()
 );
 
-INSERT INTO TP_WEB.dbo.Productos (Titulo, Descripcion, URL_Imagen) VALUES ('Auriculares', 'Auriculares para escuchar musica bien fuert', 'http://demon-multimedia.com/WebRoot/Store19/Shops/8b8b5d6c-9cb3-4c64-90b3-db3b28945fd3/56B8/889E/E6ED/DCF2/38C3/0A48/3548/D38E/KM-8800.jpg');
-INSERT INTO TP_WEB.dbo.Productos (Titulo, Descripcion, URL_Imagen) VALUES ('Video Consola', 'Playstation 4 Slim Pro 1TB', '/Content/Images/Products/D815C113939E2EB8D57396C21A403389.jpg');
-INSERT INTO TP_WEB.dbo.Productos (Titulo, Descripcion, URL_Imagen) VALUES ('Tablet', 'Tablet para disfrutar todo el contenido digital que quieras!', 'https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201712/26/00115217112711____1__640x640.jpg');
-INSERT INTO TP_WEB.dbo.Usuarios (DNI, Nombre, Apellido, Email, Direccion, Ciudad, Codigo_Postal) VALUES (39100507, 'Alejandro', 'Tidele', 'aleetidele@hotmail.com', 'Av. Maipu 3390', 'Buenos Aires', '1636');
-INSERT INTO TP_WEB.dbo.Usuarios (DNI, Nombre, Apellido, Email, Direccion, Ciudad, Codigo_Postal) VALUES (39100508, 'Jose', 'Hernandez', 'jose@gmail.com', 'Calle Falsa 123', 'Cordoba', '4545');
+INSERT INTO TP_WEB_barzola_robledo.dbo.Productos (Titulo, Descripcion, URL_Imagen) VALUES ('Notbook', 'Notbook', 'https://www.techcentral.ie/wp-content/uploads/2018/07/MacBook_Pro_18.jpg');
+INSERT INTO TP_WEB_barzola_robledo.dbo.Productos (Titulo, Descripcion, URL_Imagen) VALUES ('Viaje a brasil', 'Viaje a brasil todo pago', 'https://www.taranna.com/docs/brasil-200-642x370.jpg');
+INSERT INTO TP_WEB_barzola_robledo.dbo.Productos (Titulo, Descripcion, URL_Imagen) VALUES ('Play station 4', 'Ps4', 'https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/201609/13/00194478001061____4__1200x1200.jpg');
+INSERT INTO TP_WEB_barzola_robledo.dbo.Usuarios (DNI, Nombre, Apellido, Email, Direccion, Ciudad, Codigo_Postal) VALUES (39100507, 'Alejandro', 'Tidele', 'aleetidele@hotmail.com', 'Av. Maipu 3390', 'Buenos Aires', '1636');
+INSERT INTO TP_WEB_barzola_robledo.dbo.Usuarios (DNI, Nombre, Apellido, Email, Direccion, Ciudad, Codigo_Postal) VALUES (39100508, 'Jose', 'Hernandez', 'jose@gmail.com', 'Calle Falsa 123', 'Cordoba', '4545');
 
 DECLARE @cnt INT = 0;
 WHILE @cnt < 1000
@@ -45,5 +45,5 @@ BEGIN
    SET @cnt = @cnt + 1;
    WAITFOR DELAY '00:00:00.002'
 END;
-
-select *from vouchers
+select * from Productos
+select *from Vouchers
