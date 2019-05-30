@@ -45,3 +45,5 @@ BEGIN
    SET @cnt = @cnt + 1;
    WAITFOR DELAY '00:00:00.002'
 END;
+
+select *from vouchers

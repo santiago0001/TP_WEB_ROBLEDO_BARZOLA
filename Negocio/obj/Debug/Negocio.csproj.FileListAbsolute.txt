@@ -9,3 +9,14 @@ C:\Users\canch\Downloads\TP_WEB_ROBLEDO_BARZOLA-master\TP_WEB_ROBLEDO_BARZOLA-ma
 C:\Users\canch\Downloads\TP_WEB_ROBLEDO_BARZOLA-master\TP_WEB_ROBLEDO_BARZOLA-master\Negocio\bin\Debug\Dominio.pdb
 C:\Users\canch\Downloads\TP_WEB_ROBLEDO_BARZOLA-master\TP_WEB_ROBLEDO_BARZOLA-master\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
 C:\Users\canch\Downloads\TP_WEB_ROBLEDO_BARZOLA-master\TP_WEB_ROBLEDO_BARZOLA-master\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\canch\Downloads\TP_WEB_ROBLEDO_BARZOLA\Negocio\bin\Debug\Negocio.dll
+C:\Users\canch\Downloads\TP_WEB_ROBLEDO_BARZOLA\Negocio\bin\Debug\Negocio.pdb
+C:\Users\canch\Downloads\TP_WEB_ROBLEDO_BARZOLA\Negocio\bin\Debug\AccesoDatos.dll
+C:\Users\canch\Downloads\TP_WEB_ROBLEDO_BARZOLA\Negocio\bin\Debug\Dominio.dll
+C:\Users\canch\Downloads\TP_WEB_ROBLEDO_BARZOLA\Negocio\bin\Debug\AccesoDatos.pdb
+C:\Users\canch\Downloads\TP_WEB_ROBLEDO_BARZOLA\Negocio\bin\Debug\Dominio.pdb
+C:\Users\canch\Downloads\TP_WEB_ROBLEDO_BARZOLA\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\canch\Downloads\TP_WEB_ROBLEDO_BARZOLA\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\canch\Downloads\TP_WEB_ROBLEDO_BARZOLA\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\canch\Downloads\TP_WEB_ROBLEDO_BARZOLA\Negocio\obj\Debug\Negocio.dll
+C:\Users\canch\Downloads\TP_WEB_ROBLEDO_BARZOLA\Negocio\obj\Debug\Negocio.pdb

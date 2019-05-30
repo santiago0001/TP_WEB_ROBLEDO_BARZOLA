@@ -33,6 +33,8 @@ namespace Negocio
                 {
                     voucher = new Vouchers();
                     voucher.Id = lector.GetInt64(0);
+                    voucher.Codigo = lector.GetString(1);
+
                     //  voucher.Nombre = lector["Nombre"].ToString();
                     //if (!Convert.IsDBNull(lector["Debilidad"]))
                     //    heroe.Debilidad = lector.GetString(2);

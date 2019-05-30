@@ -18,5 +18,10 @@ namespace WebApplication6
             GridView1.DataSource = lista;
             GridView1.DataBind();
         }
+
+        protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
