@@ -1,7 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="CargaDatosUsuario.aspx.cs" Inherits="WebApplication6.CargaDatosUsuario" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
- 
-    <center>
+
+
+   <center>
       <asp:Label ID="LabelDatos" runat="server"  Text="Datos de usuario"  Font-Size="XX-Large" Font-Italic="True" Height="39px" Width="405px"></asp:Label>
    <br><br>
 </center>
@@ -11,6 +12,8 @@
 
 
                     &nbsp;
+    <asp:Label ID="Label7" runat="server" Text="ID del usuario:"></asp:Label>
+    <asp:Label ID="IDlab" runat="server" Text="Label"></asp:Label>
     <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <asp:Label ID="LabelNombre" runat="server" Text="Nombre"></asp:Label>
@@ -24,7 +27,7 @@
            <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <asp:TextBox ID="txtNombre" runat="server" Width="103px"></asp:TextBox>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-           <asp:TextBox ID="txtDni" runat="server" style="margin-left: 0"></asp:TextBox>
+           <asp:TextBox ID="txtDni" runat="server" style="margin-left: 0" OnTextChanged="txtDni_TextChanged"></asp:TextBox>
     <br />
 &nbsp;&nbsp;&nbsp;&nbsp;
     <br />
@@ -43,15 +46,15 @@
     <asp:Label ID="Label5" runat="server" Text="Ciudad"></asp:Label>
                 <br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox><br>
+            <asp:TextBox ID="txtDireccion" runat="server"></asp:TextBox>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:TextBox ID="txtCiudad" runat="server"></asp:TextBox><br>
     <br>
 
     &nbsp;&nbsp;&nbsp;
 
     <asp:Label ID="Label6" runat="server" Text="CP"></asp:Label>
                 &nbsp;&nbsp;&nbsp;
-                <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtCP" runat="server"></asp:TextBox>
     <br />
     <br>
 

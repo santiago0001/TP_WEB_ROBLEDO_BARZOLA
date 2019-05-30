@@ -118,6 +118,7 @@
     <Content Include="About.aspx" />
     <Content Include="CargaDatosUsuario.aspx" />
     <Content Include="ErrorVoucher.aspx" />
+    <Content Include="ExitoAgregado.aspx" />
     <Content Include="Premios.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -196,6 +197,13 @@
     </Compile>
     <Compile Include="ErrorVoucher.aspx.designer.cs">
       <DependentUpon>ErrorVoucher.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ExitoAgregado.aspx.cs">
+      <DependentUpon>ExitoAgregado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExitoAgregado.aspx.designer.cs">
+      <DependentUpon>ExitoAgregado.aspx</DependentUpon>
     </Compile>
     <Compile Include="Premios.aspx.cs">
       <DependentUpon>Premios.aspx</DependentUpon>

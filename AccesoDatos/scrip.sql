@@ -46,4 +46,4 @@ BEGIN
    WAITFOR DELAY '00:00:00.002'
 END;
 select * from Productos
-select *from Vouchers
+select *from vouchers
