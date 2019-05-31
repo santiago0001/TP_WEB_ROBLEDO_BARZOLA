@@ -27,7 +27,7 @@ namespace WebApplication6
 
             {                            
 
-                    if (lista[i].Codigo == TextBox1.Text.ToString())
+                    if (lista[i].Codigo == TextBox1.Text.ToString()&&lista[i].Estado=="A")
                 {
                     aux = i; i = lista.Count;
                 }

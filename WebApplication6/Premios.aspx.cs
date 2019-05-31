@@ -24,12 +24,14 @@ namespace WebApplication6
              Image3.ImageUrl = listaVoucher[2].URL_Imagen.ToString();
 
             VoucherLocal.Id = (Int64) Session["IdVoucher"];
+            Session["encontrado"] = false;
 
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            VoucherLocal.IdProducto = 4;
+
+            VoucherLocal.IdProducto = 1;
             
             negoVou.CargarProductoVoucher(VoucherLocal);
 
@@ -38,7 +40,7 @@ namespace WebApplication6
 
         protected void Button2_Click(object sender, EventArgs e)
         {
-            VoucherLocal.IdProducto = 5;
+            VoucherLocal.IdProducto = 2;
 
             negoVou.CargarProductoVoucher(VoucherLocal);
 
@@ -47,7 +49,7 @@ namespace WebApplication6
 
         protected void Button3_Click(object sender, EventArgs e)
         {
-            VoucherLocal.IdProducto = 6;
+            VoucherLocal.IdProducto = 3;
 
             negoVou.CargarProductoVoucher(VoucherLocal);
 

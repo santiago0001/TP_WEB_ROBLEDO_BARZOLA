@@ -1,6 +1,6 @@
 CREATE DATABASE TP_WEB_barzola_robledo
 GO
-USE TP_WEB
+USE TP_WEB_barzola_robledo
 
 CREATE TABLE Productos(
     Id BIGINT NOT NULL IDENTITY (1, 1) PRIMARY KEY,
@@ -41,9 +41,11 @@ INSERT INTO TP_WEB_barzola_robledo.dbo.Usuarios (DNI, Nombre, Apellido, Email, D
 DECLARE @cnt INT = 0;
 WHILE @cnt < 1000
 BEGIN
-   INSERT INTO TP_WEB.dbo.Vouchers (Codigo) VALUES (DEFAULT);
+   INSERT INTO TP_WEB_barzola_robledo.dbo.Vouchers (Codigo) VALUES (DEFAULT);
    SET @cnt = @cnt + 1;
    WAITFOR DELAY '00:00:00.002'
 END;
 select * from Productos
-select *from vouchers
+select *from Vouchers
+select *from Usuarios
+

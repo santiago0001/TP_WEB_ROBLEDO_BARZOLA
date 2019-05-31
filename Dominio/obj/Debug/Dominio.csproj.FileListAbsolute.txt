@@ -3,3 +3,9 @@ C:\Users\canch\Downloads\TP_WEB_ROBLEDO_BARZOLA-master\TP_WEB_ROBLEDO_BARZOLA-ma
 C:\Users\canch\Downloads\TP_WEB_ROBLEDO_BARZOLA-master\TP_WEB_ROBLEDO_BARZOLA-master\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
 C:\Users\canch\Downloads\TP_WEB_ROBLEDO_BARZOLA-master\TP_WEB_ROBLEDO_BARZOLA-master\Dominio\obj\Debug\Dominio.dll
 C:\Users\canch\Downloads\TP_WEB_ROBLEDO_BARZOLA-master\TP_WEB_ROBLEDO_BARZOLA-master\Dominio\obj\Debug\Dominio.pdb
+C:\Users\canch\Downloads\TP_WEB_ROBLEDO_BARZOLA\Dominio\bin\Debug\Dominio.dll
+C:\Users\canch\Downloads\TP_WEB_ROBLEDO_BARZOLA\Dominio\bin\Debug\Dominio.pdb
+C:\Users\canch\Downloads\TP_WEB_ROBLEDO_BARZOLA\Dominio\obj\Debug\Dominio.csprojAssemblyReference.cache
+C:\Users\canch\Downloads\TP_WEB_ROBLEDO_BARZOLA\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\canch\Downloads\TP_WEB_ROBLEDO_BARZOLA\Dominio\obj\Debug\Dominio.dll
+C:\Users\canch\Downloads\TP_WEB_ROBLEDO_BARZOLA\Dominio\obj\Debug\Dominio.pdb

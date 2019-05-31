@@ -10,7 +10,7 @@ namespace Dominio
     {
         public Int64 Id { get; set; }
         public string Codigo { get; set; }
-        public Char Estado { get; set; }
+        public string Estado { get; set; }
         public Int64 IdUsuario { get; set; }
         public Int64 IdProducto { get; set; }
         public DateTime Fecha_Registro { get; set; }

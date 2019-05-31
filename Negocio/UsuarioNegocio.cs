@@ -54,6 +54,60 @@ namespace Negocio
             }
         }
 
+        public List<Usuario> BuscarDni(Int32 dni)
+        {
+            SqlConnection conexion = new SqlConnection();
+            SqlCommand comando = new SqlCommand();
+            SqlDataReader lector;
+            List<Usuario> listado = new List<Usuario>();
+            Usuario us;
+
+            try
+            {
+                conexion.ConnectionString = AccesoDatosManager.cadenaConexion;
+                comando.CommandType = System.Data.CommandType.Text;
+                //MSF-20190420: agregué todos los datos del heroe. Incluso su universo, que lo traigo con join.
+                comando.CommandText = "select * From usuarios";
+                comando.Connection = conexion;
+                conexion.Open();
+                lector = comando.ExecuteReader();
+
+                while (lector.Read())
+                {
+                    us = new Usuario();
+                    us.Dni = lector.GetInt32(1);
+                    if (us.Dni==dni)
+                    {
+                        us.Id = lector.GetInt64(0);
+                        us.Nombre = lector.GetString(2);
+                        us.Apellido = lector.GetString(3);
+                        us.Email = lector.GetString(4);
+                        us.Direccion = lector.GetString(5);
+                        us.Ciudad = lector.GetString(6);
+                        us.Codigo_Postal = lector.GetString(7);
+
+                        listado.Add(us);
+
+                    }
+
+
+                }
+
+                return listado;
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+        }
+
+
+
 
 
         public void AgregarUsuario(Usuario nuevo)
