@@ -9,3 +9,9 @@ C:\Users\canch\Downloads\TP_WEB_ROBLEDO_BARZOLA\Dominio\obj\Debug\Dominio.csproj
 C:\Users\canch\Downloads\TP_WEB_ROBLEDO_BARZOLA\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
 C:\Users\canch\Downloads\TP_WEB_ROBLEDO_BARZOLA\Dominio\obj\Debug\Dominio.dll
 C:\Users\canch\Downloads\TP_WEB_ROBLEDO_BARZOLA\Dominio\obj\Debug\Dominio.pdb
+D:\aUTN TSP\bUTN_TSP_1C_2019\PROGRAMACION 3\a_git_bajado grupo_30_05\TP_WEB_ROBLEDO_BARZOLA\Dominio\bin\Debug\Dominio.dll
+D:\aUTN TSP\bUTN_TSP_1C_2019\PROGRAMACION 3\a_git_bajado grupo_30_05\TP_WEB_ROBLEDO_BARZOLA\Dominio\bin\Debug\Dominio.pdb
+D:\aUTN TSP\bUTN_TSP_1C_2019\PROGRAMACION 3\a_git_bajado grupo_30_05\TP_WEB_ROBLEDO_BARZOLA\Dominio\obj\Debug\Dominio.csprojAssemblyReference.cache
+D:\aUTN TSP\bUTN_TSP_1C_2019\PROGRAMACION 3\a_git_bajado grupo_30_05\TP_WEB_ROBLEDO_BARZOLA\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+D:\aUTN TSP\bUTN_TSP_1C_2019\PROGRAMACION 3\a_git_bajado grupo_30_05\TP_WEB_ROBLEDO_BARZOLA\Dominio\obj\Debug\Dominio.dll
+D:\aUTN TSP\bUTN_TSP_1C_2019\PROGRAMACION 3\a_git_bajado grupo_30_05\TP_WEB_ROBLEDO_BARZOLA\Dominio\obj\Debug\Dominio.pdb

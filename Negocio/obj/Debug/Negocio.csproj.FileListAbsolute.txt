@@ -20,3 +20,14 @@ C:\Users\canch\Downloads\TP_WEB_ROBLEDO_BARZOLA\Negocio\obj\Debug\Negocio.csproj
 C:\Users\canch\Downloads\TP_WEB_ROBLEDO_BARZOLA\Negocio\obj\Debug\Negocio.csproj.CopyComplete
 C:\Users\canch\Downloads\TP_WEB_ROBLEDO_BARZOLA\Negocio\obj\Debug\Negocio.dll
 C:\Users\canch\Downloads\TP_WEB_ROBLEDO_BARZOLA\Negocio\obj\Debug\Negocio.pdb
+D:\aUTN TSP\bUTN_TSP_1C_2019\PROGRAMACION 3\a_git_bajado grupo_30_05\TP_WEB_ROBLEDO_BARZOLA\Negocio\bin\Debug\Negocio.dll
+D:\aUTN TSP\bUTN_TSP_1C_2019\PROGRAMACION 3\a_git_bajado grupo_30_05\TP_WEB_ROBLEDO_BARZOLA\Negocio\bin\Debug\Negocio.pdb
+D:\aUTN TSP\bUTN_TSP_1C_2019\PROGRAMACION 3\a_git_bajado grupo_30_05\TP_WEB_ROBLEDO_BARZOLA\Negocio\bin\Debug\AccesoDatos.dll
+D:\aUTN TSP\bUTN_TSP_1C_2019\PROGRAMACION 3\a_git_bajado grupo_30_05\TP_WEB_ROBLEDO_BARZOLA\Negocio\bin\Debug\Dominio.dll
+D:\aUTN TSP\bUTN_TSP_1C_2019\PROGRAMACION 3\a_git_bajado grupo_30_05\TP_WEB_ROBLEDO_BARZOLA\Negocio\bin\Debug\AccesoDatos.pdb
+D:\aUTN TSP\bUTN_TSP_1C_2019\PROGRAMACION 3\a_git_bajado grupo_30_05\TP_WEB_ROBLEDO_BARZOLA\Negocio\bin\Debug\Dominio.pdb
+D:\aUTN TSP\bUTN_TSP_1C_2019\PROGRAMACION 3\a_git_bajado grupo_30_05\TP_WEB_ROBLEDO_BARZOLA\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+D:\aUTN TSP\bUTN_TSP_1C_2019\PROGRAMACION 3\a_git_bajado grupo_30_05\TP_WEB_ROBLEDO_BARZOLA\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+D:\aUTN TSP\bUTN_TSP_1C_2019\PROGRAMACION 3\a_git_bajado grupo_30_05\TP_WEB_ROBLEDO_BARZOLA\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+D:\aUTN TSP\bUTN_TSP_1C_2019\PROGRAMACION 3\a_git_bajado grupo_30_05\TP_WEB_ROBLEDO_BARZOLA\Negocio\obj\Debug\Negocio.dll
+D:\aUTN TSP\bUTN_TSP_1C_2019\PROGRAMACION 3\a_git_bajado grupo_30_05\TP_WEB_ROBLEDO_BARZOLA\Negocio\obj\Debug\Negocio.pdb
